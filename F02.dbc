@@ -1,0 +1,54 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 407 Shifter: 8 Vector__XXX
+ SG_ Counter1 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Counter2 : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0003 : 16|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0004 : 20|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0005 : 24|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Park_button : 28|4@1+ (1,0) [0|1] "I/O" Vector__XXX
+
+
+
+CM_ BO_ 407 "Shifter positions and buttons";
+CM_ SG_ 407 Counter1 "Counter?
+";
+CM_ SG_ 407 Counter2 "Counter?";
+VAL_ 407 Park_button 0 "Not pressed" 1 "Pressed" ;
+
